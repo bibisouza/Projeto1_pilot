@@ -50,17 +50,22 @@ O "Pilot" é um aplicativo para aparelhos mobile que tem como objetivo facilitar
 ### Requisitos Específicos
 
 #### 3.1 Requisitos Funcionais 
-1. **RF001 - Cadastro de Clientes**: O sistema deve permitir o cadastro de novos clientes com informações básicas (nome, telefone, endereço).
-2. **RF002 - Cadastro de Produtos**: O sistema deve permitir incluir, alterar e excluir produtos do estoque.
-3. **RF003 - Criar Pedido**: O sistema deve permitir criar pedidos contendo um ou mais itens (produtos/serviços) relacionados a um cliente.
-4. **RF004 - Atualizar Status do Pedido**: O sistema deve permitir alterar o status do pedido (em aberto, em processamento, concluído).
-5. **RF005 - Emitir Relatórios**: O sistema deve gerar relatórios de vendas por período e por categoria de produto.
+1. **RF001 - Cadastro de Usuários**: O sistema deve permitir o cadastro de novos usuários, informando nome, email e senha.
+2. **RF002 - Login de Usuários**: O sistema deve permitir que usuários cadastrados façam login informando email e senha.
+3. **RF003 - Personalizar Perfil**: O sistema deve permitir que o usuário personalize seu perfil, adicionando foto, apelido biografia.
+4. **RF004 -Registro de séries na biblioteca pessoal**: O sistema deve permitir que o usuário resgistre séries em sua biblioteca pessoal, podendo definir o status da série(Assistindo, Finalizada, Abandonada, Quero Assitir).
+5. **RF005 - Avaliação de séries**: O sistema deve permitir que o usuário avalie séries atrribuindo uma nota de 1 a 5 estrelas, com a opção de escrever uma resenha associada à avaliação.
+6. **RF006 - Busca de séries**: O sistema deve permitir que o usuário busque séries pelo seu nome, diretor, gênero, personagens ou atores envolvidos.
+7. **RF007 - Criação de Listas Personalizadas**: O sistema deve permitir que o usuário crie listas personalizadas selecionando séries.
+8. **RF008 - Estatísticas do Usuário**: O sistema deve gerar estatísticas do perfil, com base na quantidade de séries assistidas, tempo total de minutos assistidos, gêneros mais assistidos, atores mais assistidos.
+
 
 #### 3.2 Requisitos Não Funcionais 
-1. **RNF001 - Desempenho**: O sistema deve responder às requisições em até 2 segundos em média.
-2. **RNF002 - Segurança**: Todo acesso ao sistema deve exigir autenticação de usuário e senha.
-3. **RNF003 - Disponibilidade**: O sistema deve ficar disponível 95% do tempo em horário comercial (8h às 18h).
-4. **RNF004 - Usabilidade**: A interface deve ser responsiva e intuitiva, facilitando o uso em diferentes dispositivos.
+1. **RNF001 - Desempenho**: O sistema deve responder às requisições em até 2 segundos em média, proporcionando uma navegação fluída.
+2. **RNF002 - Segurança**: O sistema deve proteger dados sensíveis dos usuários, utilizando práticas como criptografia de senhas e conexões seguras.
+3. **RNF003 - Disponibilidade**: O sistema deve ficar disponível 99% do tempo, considerando manutenções programas.
+4. **RNF004 - Usabilidade**: A interface deve ser responsiva, intuitiva e acessível, funcionando em diferentes dispositivos e sistemas operacionais.
+5. **RNF005 - Esacalabilidade**: O sistema deve ser capaz de suportar o crescimento contínuo do número de usuários e da quantidade de dados, sem comprometer seu desempenho.
 
 #### 3.3 Regras de Negócio
 1. **RN001**: Um pedido não pode ser finalizado se não houver ao menos um item (produto ou serviço).
