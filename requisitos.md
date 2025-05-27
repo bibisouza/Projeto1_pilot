@@ -2,24 +2,22 @@
 
 | Autor | Versão | Data       | Descrição                               |
 |-------|-------|------------|------------------------------------------|
-| João  | 1.0   | 10/04/2025 | Primeira versão do documento             |
-| Maria | 1.1   | 12/04/2025 | Revisão e correções gramaticais          |
-| Pedro | 1.2   | 14/04/2025 | Adição de conteúdo e ajustes de formatação|
+| Beatriz, Paula e Pedro  | 1.0   | 27/05/2025 | Primeira versão do documento             |
 
 
 ### Introdução 
 
 #### 1.1 Propósito 
-O propósito deste documento é fornecer uma visão geral do sistema de pedidos para um petshop, detalhando seus objetivos, funcionalidades e requisitos. Ele servirá como guia para a equipe de desenvolvimento e para as partes interessadas, garantindo clareza e consenso sobre o que será entregue.
+O propósito deste documento é fornecer uma visão geral do aplicativo "Pilot" que funciona como uma rede social para amantes de série, detalhando seus objetivos, funcionalidades e requisitos. Ele servirá como guia para a equipe de desenvolvimento e para as partes interessadas, garantindo clareza e consenso sobre o que será entregue.
 
 #### 1.2 Escopo
-O sistema de pedidos para o petshop abrangerá:
-- Registro e gerenciamento de pedidos de produtos e serviços.
-- Controle de estoque de produtos.
-- Cadastro de clientes e animais de estimação.
-- Emissão de relatórios gerenciais de vendas e clientes.
-
-Este escopo não inclui a parte de logística de entrega (como transporte) nem a integração com sistemas de pagamento terceirizados (e.g., gateways de pagamento), que podem ser tratados em projetos futuros.
+O aplicativo de rede social abrangerá:
+- Fórum onde os usuários podem conversar sobre as séries;
+- Registrar quais séries o usuário está assistindo;
+- Registrar o episódio no qual o usuário parou de assistir;
+- Avaliação de séries;
+- Personalização do próprio perfil no aplicativo;
+- Visualização do perfil de outros usuários
 
 #### 1.3 Visão Geral
 O documento apresenta inicialmente um panorama do projeto, descrevendo a ideia do sistema e suas principais funcionalidades. Em seguida, detalha requisitos funcionais e não funcionais, regras de negócio, além de diagramas de caso de uso e de classes. Por fim, traz a rastreabilidade dos requisitos e as considerações finais.
