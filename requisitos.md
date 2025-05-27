@@ -27,22 +27,22 @@ O documento apresenta inicialmente um panorama do projeto, descrevendo a ideia d
 ### Descrição Geral 
 
 #### 2.1 Perspectiva do Produto
-O sistema de pedidos para o petshop se encaixa como uma solução integrada para lojas de animais, permitindo o cadastro de produtos (ração, brinquedos, medicamentos, etc.), serviços (banho, tosa, consultas), clientes e pedidos. A expectativa é que esse sistema seja acessível via web, facilitando o dia a dia dos funcionários e clientes.
+O "Pilot" é um aplicativo para aparelhos mobile que tem como objetivo facilitar que o usuário registre quais séries está assistindo, em qual episódio ele está e encontre outros usuários que têm gostos parecidos. A expectativa é que o aplicativo esteja nas principais lojas de aplicativo (App Store e Google Play) e é desejável que ele tenha uma versão web também.
 
 #### 2.2 Funções do Produto 
-1. **Gerenciamento de Pedidos**: Permite criar, atualizar e finalizar pedidos.
-2. **Controle de Estoque**: Monitora quantidade de produtos, exibindo alertas de reposição.
-3. **Cadastro de Clientes e Animais**: Armazena dados de clientes (proprietários) e de seus animais de estimação.
-4. **Relatórios**: Gera relatórios de vendas, clientes e produtos para análise gerencial.
+1. **Registro e login**: Permite o registro e login no sistema.
+2. **Séries cadastradas**: Tem uma base de dados de séries já cadastradas e informações sobre elas.
+3. **Gerenciamento de Séries no perfil do usuário**: Permite marcar/desmarcar uma série como assistida ou assistindo, avaliá-la, marcá-la como favorita, adicionar uma review à ela e criar listas de séries.
+4. **Gerenciamento do dados no seu perfil**: Permite que o usuário altere certos dados no seu perfil.
+4. **Fórum**: Local destinado à interação com outros usuários, as conversas são divididas por tema (série ou episódio/temporada de uma série) e podem ser marcadas como spoilers.
+5. **Perfil de outros usuários**: Permite que o usuário acesso o perfil de outros usuários e veja seus dados público (não sensíveis)
 
 #### 2.3 Características dos Usuários
-- **Atendentes**: Responsáveis pelo cadastro e acompanhamento de pedidos, além de atender solicitações de clientes.
-- **Administradores**: Responsáveis pela configuração do sistema, gerenciamento de estoque e emissão de relatórios.
-- **Clientes**: Podem, no futuro, ter acesso a um portal para criar e acompanhar pedidos online (funcionalidade opcional).
+- **Usuário**: Pode gerenciar as séries no seu perfil, ver o perfil e seguir outros usuários, comentar em reviews de outros usuários e gerenciar os dados de seu perfil.
 
 #### 2.4 Restrições Gerais
-- O sistema deve operar em navegadores modernos (Chrome, Firefox, Edge).
-- O banco de dados deve ser acessível somente dentro da rede da empresa (por questões de segurança).
+- O sistema deve operar em dispositivos móveis modernos e estar presente nas principais lojas de aplicativos.
+- O banco de dados deve ser acessível somente por meio das funções permitidas pelo aplicativo.
 - As integrações externas (se necessárias) devem seguir protocolos seguros (HTTPS/TLS).
 
 ---
