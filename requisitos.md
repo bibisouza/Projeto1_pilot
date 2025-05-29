@@ -78,11 +78,46 @@ O "Pilot" é um aplicativo para aparelhos mobile que tem como objetivo facilitar
 ### Modelos e Diagramas
 
 #### 4.1 Casos de Uso
-- **UC01**: Cadastrar Cliente
-- **UC02**: Cadastrar Produto
-- **UC03**: Criar Pedido
-- **UC04**: Atualizar Status do Pedido
-- **UC05**: Gerar Relatório de Vendas
+
+- **UC01**: Cadastrar-se no sistema
+Atores: Usuário
+Descrição: Permite que o usuário realize o cadastro no sistema ao informar nome, e-mail e senha.
+Requisito relacionado: RF001
+
+- **UC02**: Fazer login
+Atores: Usuário
+Descrição: Permite que os usuários cadastrados acessem sua conta com e-mail e senha.
+Requisito relacionado: RF002
+
+- **UC03**: Personalizar perfil
+Atores: Usuário
+Descrição: Permite que o usuário edite seu perfil, adicionando foto, apelido e biografia.
+Requisito relacionado: RF003
+
+- **UC04**: Registrar série na biblioteca pessoal
+Atores: Usuário
+Descrição: Permite ao usuário adicionar uma série à sua biblioteca e definir o status (Assistindo, Finalizada, Abandonada, Quero Assistir).
+Requisito relacionado: RF004
+
+- **UC05**: Avaliar série
+Atores: Usuário
+Descrição: Permite ao usuário avaliar uma série com nota de 1 a 5 estrelas e escrever uma resenha.
+Requisito relacionado: RF005
+
+- **UC06**: Buscar séries
+Atores: Usuário
+Descrição: Permite buscar séries por nome, diretor, gênero, personagens ou atores.
+Requisito relacionado: RF006
+
+- **UC07**: Criar listas personalizadas
+Atores: Usuário
+Descrição: Permite que o usuário crie listas com séries selecionadas manualmente.
+Requisito relacionado: RF007
+
+- **UC08**: Visualizar estatísticas do perfil
+Atores: Usuário
+Descrição: Exibe estatísticas baseadas nas séries assistidas (quantidade, tempo, gênero, atores mais vistos).
+Requisito relacionado: RF008
 
 Cada caso de uso descreve o fluxo de ações, pré-condições e pós-condições para cada funcionalidade crítica do sistema.
 
