@@ -80,43 +80,101 @@ O "Pilot" é um aplicativo para aparelhos mobile que tem como objetivo facilitar
 #### 4.1 Casos de Uso
 
 - **UC01**: Cadastrar-se no sistema
-Atores: Usuário
-Descrição: Permite que o usuário realize o cadastro no sistema ao informar nome, e-mail e senha.
+Ator: Visitante
+Descrição: Permite que o usuário realize o cadastro no sistema.
+Pré-condições: O usuário não pode estar autenticado no sistema.
+Fluxo principal:
+1. O visitante acessa a tela de cadastro;
+2. Os campos obrigatórios são preenchidos: nome, e-mail e senha;
+3. O sistema valida os dados;
+4. O sistema cria a conta e redireciona o usuário para a tela de login ou para o sistema já autenticado.
+Pós-condições: O novo usuário está cadastrado e pode fazer login.
 Requisito relacionado: RF001
 
 - **UC02**: Fazer login
-Atores: Usuário
-Descrição: Permite que os usuários cadastrados acessem sua conta com e-mail e senha.
+Atores: Usuário, sistema
+Descrição: Permite que os usuários cadastrados acessem sua conta.
+Pré-condições: O usuário já deve ter uma conta registrada.
+Fluxo principal:
+1. O usuário acessa a tela de login;
+2. São preenchidos os campos de e-mail e senha;
+3. O sistema valida as credenciais;
+4. O sistema autentica o usuário e o redireciona à página inicial.
+Pós-condições: O usuário está autenticado e tem acesso às funcionalidades restritas.
 Requisito relacionado: RF002
 
 - **UC03**: Personalizar perfil
-Atores: Usuário
+Atores: Usuário, sistema
 Descrição: Permite que o usuário edite seu perfil, adicionando foto, apelido e biografia.
+Pré-condições: O usuário deve estar autenticado.
+Fluxo principal:
+1. O usuário acessa as configurações de perfil;
+2. Insere ou altera imagem, apelido e/ou biografia;
+3. O sistema valida os dados;
+4. O sistema salva as alterações.
+Pós-condições: O perfil é atualizado com os novos dados.
 Requisito relacionado: RF003
 
 - **UC04**: Registrar série na biblioteca pessoal
-Atores: Usuário
+Ator: Usuário
 Descrição: Permite ao usuário adicionar uma série à sua biblioteca e definir o status (Assistindo, Finalizada, Abandonada, Quero Assistir).
+Pré-condições: O usuário deve estar autenticado.
+Fluxo principal:
+1. O usuário busca ou encontra a série desejada;
+2. Seleciona a opção "Adicionar à biblioteca";
+3. Define o status da série;
+4. O sistema adiciona a série à biblioteca do usuário.
+Pós-condições: A série é registrada na biblioteca pessoal com o status escolhido.
 Requisito relacionado: RF004
 
 - **UC05**: Avaliar série
-Atores: Usuário
+Ator: Usuário
 Descrição: Permite ao usuário avaliar uma série com nota de 1 a 5 estrelas e escrever uma resenha.
+Pré-condições: A série deve estar na biblioteca pessoal do usuário.
+Fluxo principal:
+1. O usuário acessa a página da série;
+2. Escolhe a nota (1 a 5 estrelas);
+3. Escreve uma resenha (opcional);
+4. Envia a avaliação;
+5. O sistema salva e exibe a avaliação no perfil do usuário e na página da série.
+Pós-condições: A avaliação é registrada e associada ao perfil do usuário e à série.
 Requisito relacionado: RF005
 
 - **UC06**: Buscar séries
-Atores: Usuário
+Ator: Usuário
 Descrição: Permite buscar séries por nome, diretor, gênero, personagens ou atores.
+Pré-condições: Nenhuma
+Fluxo principal: 
+1. O usuário acessa a barra de busca;
+2. Digita um termo (nome, ator, gênero, etc);
+3. O sistema retorna os resultados relevantes.
+Pós-condições: As séries relacionadas ao termo buscado são exibidas.
 Requisito relacionado: RF006
 
 - **UC07**: Criar listas personalizadas
-Atores: Usuário
+Ator: Usuário
 Descrição: Permite que o usuário crie listas com séries selecionadas manualmente.
+Pré-condições: O usuário deve estar autenticado.
+Fluxo principal: 
+1. O usuário acessa a área de listas;
+2. Clica em "Criar nova lista";
+3. Define título, descrição e seleciona as séries;
+4. Salva a lista.
+Pós-condições: Uma nova lista é adicionada ao perfil do usuário.
 Requisito relacionado: RF007
 
 - **UC08**: Visualizar estatísticas do perfil
-Atores: Usuário
+Ator: Usuário
 Descrição: Exibe estatísticas baseadas nas séries assistidas (quantidade, tempo, gênero, atores mais vistos).
+Pré-condições: O usuário deve ter ao menos uma série registrada.
+Fluxo principal: 
+1. O usuário acessa seu perfil;
+2. O sistema calcula e exibe estatísticas como:
+    - Total de séries/temporadas assistidas
+    - Tempo total 
+    - Gêneros mais frequentes
+    - Atores mais recorrentes
+Pós-condições: As estatísticas são exibidas de forma visual ao usuário.
 Requisito relacionado: RF008
 
 Cada caso de uso descreve o fluxo de ações, pré-condições e pós-condições para cada funcionalidade crítica do sistema.
