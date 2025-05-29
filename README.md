@@ -1,2 +1,2 @@
-# Projeto1_example
+# PILOT
 Artefatos para disciplina de Projeto 1
