@@ -50,14 +50,16 @@ O "Pilot" é um aplicativo para aparelhos mobile que tem como objetivo facilitar
 ### Requisitos Específicos
 
 #### 3.1 Requisitos Funcionais 
-1. **RF001 - Cadastro de Usuários**: O sistema deve permitir o cadastro de novos usuários, informando nome, email e senha.
-2. **RF002 - Login de Usuários**: O sistema deve permitir que usuários cadastrados façam login informando email e senha.
-3. **RF003 - Personalizar Perfil**: O sistema deve permitir que o usuário personalize seu perfil, adicionando foto, apelido biografia.
+1. **RF001 - Cadastro de usuários**: O sistema deve permitir o cadastro de novos usuários, informando nome, email e senha.
+2. **RF002 - Login de usuários**: O sistema deve permitir que usuários cadastrados façam login informando email e senha.
+3. **RF003 - Personalizar perfil**: O sistema deve permitir que o usuário personalize seu perfil, adicionando foto, apelido biografia.
 4. **RF004 -Registro de séries na biblioteca pessoal**: O sistema deve permitir que o usuário resgistre séries em sua biblioteca pessoal, podendo definir o status da série(Assistindo, Finalizada, Abandonada, Quero Assitir).
 5. **RF005 - Avaliação de séries**: O sistema deve permitir que o usuário avalie séries atrribuindo uma nota de 1 a 5 estrelas, com a opção de escrever uma resenha associada à avaliação.
 6. **RF006 - Busca de séries**: O sistema deve permitir que o usuário busque séries pelo seu nome, diretor, gênero, personagens ou atores envolvidos.
-7. **RF007 - Criação de Listas Personalizadas**: O sistema deve permitir que o usuário crie listas personalizadas selecionando séries.
-8. **RF008 - Estatísticas do Usuário**: O sistema deve gerar estatísticas do perfil, com base na quantidade de séries assistidas, tempo total de minutos assistidos, gêneros mais assistidos, atores mais assistidos.
+7. **RF007 - Criação de listas personalizadas**: O sistema deve permitir que o usuário crie listas personalizadas selecionando séries.
+8. **RF008 - Estatísticas do usuário**: O sistema deve gerar estatísticas do perfil, com base na quantidade de séries assistidas, tempo total de minutos assistidos, gêneros mais assistidos, atores mais assistidos.
+9. **RF009 - Seguir ou desseguir usuários**: O sistema deve permitir que os usuários sigam e deixem de seguir outros usuários na plataforma.
+10. **RF010 - Sugestão de séries**: O sistema deve sugerir séries aos usuários com base em suas estatíticas de séries assistidas, avaliações e gêneros favoritos.
 
 
 #### 3.2 Requisitos Não Funcionais 
@@ -66,13 +68,20 @@ O "Pilot" é um aplicativo para aparelhos mobile que tem como objetivo facilitar
 3. **RNF003 - Disponibilidade**: O sistema deve ficar disponível 99% do tempo, considerando manutenções programas.
 4. **RNF004 - Usabilidade**: A interface deve ser responsiva, intuitiva e acessível, funcionando em diferentes dispositivos e sistemas operacionais.
 5. **RNF005 - Esacalabilidade**: O sistema deve ser capaz de suportar o crescimento contínuo do número de usuários e da quantidade de dados, sem comprometer seu desempenho.
+6. **RNF006 - Manutenibilidade**: O código-fonte do sistema deve ser modular, documentado e constatemente mantido e atualizado.
 
 #### 3.3 Regras de Negócio
-1. **RN001**: Um pedido não pode ser finalizado se não houver ao menos um item (produto ou serviço).
-2. **RN002**: A quantidade de produtos em estoque não pode ficar negativa. 
-3. **RN003**: Para cada pedido de banho e tosa, é obrigatório associar pelo menos um animal de estimação do cliente.
-4. **RN004**: É obrigatório registrar a forma de pagamento no momento do fechamento do pedido (dinheiro, cartão de crédito, etc.).
-
+1. **RN001 - Idade mìnima para cadastro**: Um usuário deve ter no mínimo 13 anos para se cadastrar no aplicativo.
+2. **RN002 - Visibilidade de resenhas com spoiler**: Se uma resenha for marcada como "spoiler" pelo usuário, seu conteúdo deve ser ocultado por padrão para outros usuários até que eles explicitamente cliquem para visualizá-lo.
+3. **RN003 - Assinatura premium**: A assinatura premium requer uma 
+pagamento anual de X reais.
+Uusários com a assinatura premium terão acesso a funcionaludades exlusivas como:
+    - Remoção de anúncios
+    - Maior personalização no perfil
+    - Estatísticas sobre o seu perfil
+    - Retrospectiva anual
+4. **RN004 - Registro de séries na biblioteca pessoal**: Ao registrar pessoal, o usuário deve definir o status da série entre as opções disponíveis(Assistindo, Finaizada, Abandonada, Quero Assistir). Para séries com o status "Assistindo" ou "Finalizada", o usuário deve ter a opção de registrar o episódio e a temporada em que parou ou finalizou a série. O sistema deve automaticamente atualizar o status da série para "Finalizada" quando o usuário registrar o último episódio da última temporada.
+5. **RN005 - Limite de avaliações por série**: Um usuário só pode atribuir uma única nota de avaliação (de 1 a 5 estrelas) por série. Caso o usuário queira mudar a nota, ele deve editar a avaliação existente, e a nova nota substituirá a anterior.
 ---
 
 ### Modelos e Diagramas
