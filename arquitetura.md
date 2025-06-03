@@ -17,7 +17,7 @@ O Pilot será um aplicativo mobile, com expectativo de receber uma versão web. 
 
 ## 2. Diagrama da Arquitetura
 
-<img src='diagrama_arquitetura.png'/>
+<img src='images/diagrama_arquitetura.png'/>
 
 O sistema á basedo na arquitetura de rede Cliente-Servidor onde o cliente (_Client_), que é o front-end do sistema, solicita serviços ao servidor e o servidor (_Server_), back-end do sistema, é responsável por receber, tratar e retornar alguma uma resposta para a solicitação feita. A comunicação entre esses dois módulos se dá por meio do protocolo HTTP.
 
