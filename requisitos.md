@@ -192,11 +192,8 @@ Cada caso de uso descreve o fluxo de ações, pré-condições e pós-condiçõe
 O diagrama de classe deve representar as principais entidades do sistema, como **Cliente**, **Produto**, **Pedido**, **ItemPedido**, **Serviço** e **Relatório**, mostrando relacionamentos, atributos e métodos relevantes.
 
 #### 4.3 Diagramas de Sequência (Definir o fluxo de pelo menos um caso de uso)
-Podem ser detalhados os fluxos:
-- **Fluxo de Criação de Pedido** (mostrando interação entre Atendente, Sistema, Estoque, etc.)
-- **Fluxo de Emissão de Relatório** (mostrando como os dados são buscados no banco de dados).
 
----
+![Diagrama De Sequencia](images/DiagramasSegundaParte.jpeg)
 
 ### Rastreabilidade de Requisitos 
 
