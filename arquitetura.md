@@ -4,13 +4,9 @@
 
 **Qual arquitetura de software foi escolhida para o projeto?**  
 
-> *(Ex: MVC, Cliente-Servidor, Microsserviços, Monolítica, Event-Driven, etc.)*
-
 O sistema será desenvolvido seguindo uma arquitetura cliente-servidor modular, dividida em Front-end e Back-end seguindo arquiteturas MVVM e Arquitetura em Camadas, respectivamente.
 
 **Justifique a escolha dessa arquitetura em relação ao tipo de sistema proposto:**  
-> Explique por que essa arquitetura é adequada para o problema que o sistema pretende resolver.  
-> Considere aspectos como escalabilidade, complexidade do sistema, comunicação entre partes, etc.
 
 O Pilot será um aplicativo mobile, com expectativo de receber uma versão web. Portanto, separar os módulos entre cliente(Front-end) e servidor(Back-end) é o ideal, onde os clientes mobile e web consultariam o mesmo servidor, isso proporciona uma alta escalabilidade e flexibilidade para o projeto. Além disso, sua fácil implementação e o fato de que os dados e lógica estão centralizados aumenta a manutenibilidade, o que combina com o tamanho reduzido da equipe envolvida no projeto.
 
@@ -45,8 +41,6 @@ O servidor, também chamado de back-end, segue a **arquitetura em Camadas**, ond
     - AWS
 
 **Justifique suas escolhas em relação aos requisitos do sistema:**  
-> Explique como essas tecnologias ajudam a atender os requisitos funcionais e não funcionais.  
-> Comente sobre facilidade de uso, suporte da comunidade, integração com outras ferramentas, etc.
 
 As linguagens de programação e frameworks foram escolhidas por causa da familiaridade da equipe com elas, por causa da simplicidade de uso e comunidade muito ativa. O Flutter já disponibiliza várias ferramentas pré-prontas para a criação de aplicativos mobile, além de possuir o Dio para requisições HTTP. Já o Springboot possui uma vasta gama de ferramentas para a criação de servidores web, realização de testes unitários com JUnit, segurança e autenticação com Spring Security e JWT e suporte à outras ferramentas que serão usadas, como é o caso do Redis e do RabbitMQ.
 

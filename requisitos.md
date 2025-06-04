@@ -213,4 +213,4 @@ A matriz de rastreabilidade deve indicar a relação entre cada requisito e seus
 ---
 
 ### Conclusão 
-Este documento serve como base para o desenvolvimento do sistema de pedidos para o petshop. Futuras revisões devem ser registradas no histórico de versões para manter o controle de mudanças e melhorias contínuas.
+Este documento serve como base para o desenvolvimento do sistema ArtHub. Futuras revisões devem ser registradas no histórico de versões para manter o controle de mudanças e melhorias contínuas.
