@@ -187,6 +187,10 @@ Pós-condições: As estatísticas são exibidas de forma visual ao usuário.
 Requisito relacionado: RF008
 
 ![Diagrama De Classe](images/Casos.png)
+![Diagrama De Classe05](images/UC05.png)
+![Diagrama De Classe06](images/UC06.png)
+![Diagrama De Classe07](images/UC07.png)
+![Diagrama De Classe08](images/UC08.png)
 
 #### 4.2 Diagrama de Classe (Definir o diagrama de pelo menos um caso de uso)
 ![Diagrama De Classe](images/Clae.png)
