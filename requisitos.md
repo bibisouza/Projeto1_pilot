@@ -53,7 +53,7 @@ O "Pilot" é um aplicativo para aparelhos mobile que tem como objetivo facilitar
 1. **RF001 - Cadastro de usuários**: O sistema deve permitir o cadastro de novos usuários, informando nome, email e senha.
 2. **RF002 - Login de usuários**: O sistema deve permitir que usuários cadastrados façam login informando email e senha.
 3. **RF003 - Personalizar perfil**: O sistema deve permitir que o usuário personalize seu perfil, adicionando foto, apelido biografia.
-4. **RF004 -Registro de séries na biblioteca pessoal**: O sistema deve permitir que o usuário resgistre séries em sua biblioteca pessoal, podendo definir o status da série(Assistindo, Finalizada, Abandonada, Quero Assitir).
+4. **RF004 - Registro de séries na biblioteca pessoal**: O sistema deve permitir que o usuário resgistre séries em sua biblioteca pessoal, podendo definir o status da série(Assistindo, Finalizada, Abandonada, Quero Assitir).
 5. **RF005 - Avaliação de séries**: O sistema deve permitir que o usuário avalie séries atrribuindo uma nota de 1 a 5 estrelas, com a opção de escrever uma resenha associada à avaliação.
 6. **RF006 - Busca de séries**: O sistema deve permitir que o usuário busque séries pelo seu nome, diretor, gênero, personagens ou atores envolvidos.
 7. **RF007 - Criação de listas personalizadas**: O sistema deve permitir que o usuário crie listas personalizadas de séries.
@@ -80,7 +80,7 @@ Usários com a assinatura premium terão acesso a funcionaludades exlusivas como
     - Maior personalização no perfil
     - Estatísticas sobre o seu perfil
     - Retrospectiva anual
-4. **RN004 - Registro de séries na biblioteca pessoal**: Ao registrar uma série a sua biblioteca pessoal, o usuário deve definir o status da série entre as opções disponíveis(Assistindo, Finaizada, Abandonada, Quero Assistir). Para séries com o status "Assistindo" ou "Finalizada", o usuário deve ter a opção de registrar o episódio e a temporada em que parou ou finalizou a série. O sistema deve automaticamente atualizar o status da série para "Finalizada" quando o usuário registrar o último episódio da última temporada.
+4. **RN004 - Registro de séries na biblioteca pessoal**: Ao registrar uma série a sua biblioteca pessoal, o usuário deve definir o status da série entre as opções disponíveis(Assistindo, Finalizada, Abandonada, Quero Assistir). Para séries com o status "Assistindo" ou "Finalizada", o usuário deve ter a opção de registrar o episódio e a temporada em que parou ou finalizou a série. O sistema deve automaticamente atualizar o status da série para "Finalizada" quando o usuário registrar o último episódio da última temporada.
 5. **RN005 - Limite de avaliações por série**: Um usuário só pode atribuir uma única nota de avaliação (de 1 a 5 estrelas) por série. Caso o usuário queira mudar a nota, ele deve editar a avaliação existente, e a nova nota substituirá a anterior.
 ---
 
