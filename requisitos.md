@@ -60,7 +60,7 @@ O "Pilot" é um aplicativo para aparelhos mobile que tem como objetivo facilitar
 8. **RF008 - Estatísticas do usuário**: O sistema deve registrar estatísticas do perfil, como: quantidade de séries assistidas, tempo total de minutos assistidos, gêneros mais assistidos, atores mais assistidos.
 9. **RF009 - Seguir ou desseguir usuários**: O sistema deve permitir que os usuários sigam e deixem de seguir outros usuários na plataforma.
 10. **RF010 - Sugestão de séries**: O sistema deve sugerir séries aos usuários com base em suas estatíticas de séries assistidas, avaliações e gêneros favoritos.
-
+11. **RF011 - Criar resenhas**: O usuário pode criar resenhas sobre episódios ou temporadas de uma série, onde ele especifica o status da série (assitindo ou assistida), a nota, a resenha escrita e as categorias (tensão, drama, romance, etc).
 
 #### 3.2 Requisitos Não Funcionais 
 1. **RNF001 - Desempenho**: O sistema deve responder às requisições em até 2 segundos em média, proporcionando uma navegação fluída.
@@ -80,9 +80,14 @@ Usários com a assinatura premium terão acesso a funcionaludades exlusivas como
     - Maior personalização no perfil
     - Estatísticas sobre o seu perfil
     - Retrospectiva anual
-4. **RN004 - Registro de séries na biblioteca pessoal**: Ao registrar uma série a sua biblioteca pessoal, o usuário deve definir o status da série entre as opções disponíveis(Assistindo, Finalizada, Abandonada, Quero Assistir). Para séries com o status "Assistindo" ou "Finalizada", o usuário deve ter a opção de registrar o episódio e a temporada em que parou ou finalizou a série. O sistema deve automaticamente atualizar o status da série para "Finalizada" quando o usuário registrar o último episódio da última temporada.
+4. **RN004 - Registro de séries na biblioteca pessoal**: Ao registrar uma série a sua biblioteca pessoal, o usuário deve definir o status da série entre as opções disponíveis (Assistindo ou assistido).
 5. **RN005 - Limite de avaliações por série**: Um usuário só pode atribuir uma única nota de avaliação (de 1 a 5 estrelas) por série. Caso o usuário queira mudar a nota, ele deve editar a avaliação existente, e a nova nota substituirá a anterior.
----
+6. **RN006 - Sessão de notícias**: O Aplicativo possui uma sessão para que o usuário possa visualizar as notícias mais recentes sobre séries.
+7. **RN007 - Informações sobre a série**: O sistema deve possuir uma tela com informações de cada uma das séries disponíveis no catálogo. A tela possui a nota da série, onde assistir ela, sinopse, a média de duração dos episódios, a sua avaliação geral, tags (drama, terror, etc), número de temporadas e episódios, título, roteirista(s) e sinopse do episódio e uma sessão com o elenco da série.
+8. **RN008 - Séries favoritas no perfil**: O usuário, ao personalizar o perfil, pode escolher 3 séries para serem suas favoritas e que ficaram expostas com destaque no seu perfil.
+9. **RN009 - Notificações**: O usuário receberá notificações de outros usuários, de notícias e sobre resenhas feitas no app.
+10. **RN010 - Perfil de usuário**: O usuário possui um perfil com suas informações, as informações são: Nome, apelido, seguidores, seguidos, biografia, séries favoritas, recentes, watchlist e listas.
+11. **RN012 - Watchlist**: O usuário possui uma whatchlist que pode ser visualizada no perfil de cada usuário.
 
 ### Modelos e Diagramas
 
